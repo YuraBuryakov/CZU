@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="BURGERS">
+        <xs:complexType>
+
+            <xs:sequence>
+                <xs:element ref="MENU" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+                <xs:element name="MENU">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="BURGER">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="TYPE" type="xs:string"/>
+                                        <xs:element name="NAME"/>
+                                        <xs:element name="SAUCE" type="xs:integer" />
+                                        <xs:element name="FIRSTLEVEL" type="xs:string" />
+                                        <xs:element name="SECONDLEVEL" type="xs:string"/>
+                                        <xs:element name="THIRDLEVEL" type="xs:string" />
+                                        <xs:element name="BACON" type="xs:string" />
+                                        <xs:element name="CHEESE" type="xs:string" />
+                                        <xs:element name="FOURTHLEVEL" type="xs:string" />
+                                        <xs:element name="TIMECOOKING" type="xs:integer"/>
+                                        <xs:element name="PRICE" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+    <!--Type 1, 5 typu syru-->
+    <xs:simpleType name="typSyru">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Cheddar"/>
+            <xs:enumeration value="Blue"/>
+            <xs:enumeration value="Mozzarella"/>
+            <xs:enumeration value="Smazak"/>
+            <xs:enumeration value="Goat"/>
+
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--Type 2, Cas se pociva v secundach-->
+    <xs:simpleType name="cas">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="sec"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--Type 3, mena Cz koruny nebo Euro-->
+    <xs:simpleType name="mena">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="czk"/>
+            <xs:enumeration value="eur"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    +++<!--Type 4, Povoleni podle Ceny-->
+    <xs:simpleType name="possible_values">
+        <xs:restriction base="xs:integer">
+            <xs:minINclusive value="30"/>
+            <xs:maxInclusive value="250"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--Type 5, Pet typu burgeru v Menu-->
+    <xs:simpleType name="type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Chicken"/>
+            <xs:enumeration value="Fish"/>
+            <xs:enumeration value="Mini"/>
+            <xs:enumeration value="Vegetarian"/>
+            <xs:enumeration value="Beef"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+</xs:schema>

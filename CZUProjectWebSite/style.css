@@ -1,0 +1,60 @@
+
+body{
+	text-align: center;
+	background-image: url(image/splosh.jpg);	
+	
+}
+p,a, li,span, div.slider__inner,section.section{
+	color: white;
+	font-size: 20px;
+}
+li{
+	padding: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #C8A2C8;
+	text-align: center;
+}
+h3,h4,h5,h6{
+	color: white;
+}
+
+h1.intro__title{
+	
+	font-size: 25px;
+}
+div.container{
+	padding: 25px;
+	border-style: ridge;
+}
+div.slider__item{
+	padding: 10px;
+}
+div.header_logo{
+	padding-bottom: 10px;
+	font-size:30px ;
+	color: white;
+}
+div.col{
+	border: ridge;
+}
+div.metodika, div.metodika__title{
+	padding: 10px;
+}
+section.section{
+	border: ridge;
+}
+
+nav.nav{
+	border-top: ridge;
+	border-bottom:ridge ;
+	padding: 20px;
+}
+a.nav__link{
+	padding-left: 5px ;
+	padding-right: 5px;
+	font-size: 20px
+}
+footer{
+	padding: 5px;
+}
