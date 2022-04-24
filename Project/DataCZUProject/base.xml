@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="base.xsl"?>
+<BURGERS>
+	<MENU xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="base.xsd">
+	<BURGER type = "Beef">
+		<TYPE>Beef</TYPE>
+		<NAME>Beef</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">None</CHEESE>
+		<FOURTHLEVEL>None</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">115</PRICE>
+	</BURGER>
+	<BURGER type = "Beef">
+		<TYPE>Beef</TYPE>
+		<NAME>Samuraj</NAME>
+		<SAUCE sauce_type=>11</SAUCE>
+		<FIRSTLEVEL>Jalapeno</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>Yes</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>None</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">130</PRICE>
+	</BURGER>
+	<BURGER type = "Beef">
+		<TYPE>Beef</TYPE>
+		<NAME>Cheese</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">yes</CHEESE>
+		<FOURTHLEVEL>None</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">122</PRICE>
+	</BURGER>
+	<BURGER type = "Beef">
+		<TYPE>Beef</TYPE>
+		<NAME>Blue</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>Yes</BACON>
+		<CHEESE typSyru = "BLue">yes</CHEESE>
+		<FOURTHLEVEL>None</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">158</PRICE>
+	</BURGER>
+	<BURGER type = "Chicken">
+		<TYPE>Chicken</TYPE>
+		<NAME>Avokado</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>Yes</BACON>
+		<CHEESE typSyru = "Cheddar">None</CHEESE>
+		<FOURTHLEVEL>Avocado</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">173</PRICE>
+	</BURGER>
+	<BURGER type = "Chicken">
+		<TYPE>Chicken</TYPE>
+		<NAME>Italian</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>Yes</BACON>
+		<CHEESE typSyru = "Mozzarella">Yes</CHEESE>
+		<FOURTHLEVEL>None</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">173</PRICE>
+	</BURGER>
+	<BURGER type = "Vegetarian">
+		<TYPE>Vegetarian</TYPE>
+		<NAME>Egg</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>Egg 2x</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">95</PRICE>
+	</BURGER>
+	<BURGER type = "Vegetarian">
+		<TYPE>Vegetarian</TYPE>
+		<NAME>Veggie</NAME>
+		<SAUCE>Pesto</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">None</CHEESE>
+		<FOURTHLEVEL>Avocado</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">60</TIMECOOKING>
+		<PRICE mena="czk">115</PRICE>
+	</BURGER>
+	<BURGER type = "Vegetarian">
+		<TYPE>Vegetarian</TYPE>		
+		<NAME>Smazak</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>None</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Smazak">Yes</CHEESE>
+		<FOURTHLEVEL>None</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">150</TIMECOOKING>
+		<PRICE mena="czk">120</PRICE>
+	</BURGER>
+	<BURGER type = "Vegetarian">
+		<TYPE>Vegetarian</TYPE>
+		<NAME>Nobeef Samuraj</NAME>
+		<SAUCE>11</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">None</CHEESE>
+		<FOURTHLEVEL>Nobeef</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">145</PRICE>
+	</BURGER>
+	<BURGER type = "Vegetarian">
+		<TYPE>Vegetarian</TYPE>
+		<NAME>Nobeef Barbeque</NAME>
+		<SAUCE>6</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">None</CHEESE>
+		<FOURTHLEVEL>Nobeef</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">145</PRICE>
+	</BURGER>
+	<BURGER type = "Mini">
+		<TYPE>Mini</TYPE>
+		<NAME>Mini Egg</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>Egg</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">60</PRICE>
+	</BURGER>
+	<BURGER type = "Mini">
+		<TYPE>Mini</TYPE>
+		<NAME>Mini Chicken Cheese</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>Chicken</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">60</TIMECOOKING>
+		<PRICE mena="czk">77</PRICE>
+	</BURGER>
+	<BURGER type = "Mini">
+		<TYPE>Mini</TYPE>
+		<NAME>Mini Chicken</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">None</CHEESE>
+		<FOURTHLEVEL>Chicken</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">60</TIMECOOKING>
+		<PRICE mena="czk">70</PRICE>
+	</BURGER>
+	<BURGER type = "Mini">
+		<TYPE>Mini</TYPE>
+		<NAME>Mini Halloumi</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>None</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Halloumi">Yes</CHEESE>
+		<FOURTHLEVEL>None</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">45</TIMECOOKING>
+		<PRICE mena="czk">90</PRICE>
+	</BURGER>
+	<BURGER type = "Fish">
+		<TYPE>Fish</TYPE>
+		<NAME>Red Fish</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>Red Fish</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">240</TIMECOOKING>
+		<PRICE mena="czk">160</PRICE>
+	</BURGER>
+	<BURGER type = "Fish">
+		<TYPE>Fish</TYPE>
+		<NAME>Filet-O-Fish</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>None</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>Filet of fish</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">240</TIMECOOKING>
+		<PRICE mena="czk" possible_values="145">120</PRICE>
+	</BURGER>
+	<BURGER type = "Chicken">
+		<TYPE>Chicken</TYPE>
+		<NAME>Pepper</NAME>
+		<SAUCE>9</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>Yes</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>AvNoneocado</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">130</PRICE>
+	</BURGER>
+	<BURGER type = "Chicken">
+		<TYPE>Chicken</TYPE>
+		<NAME>Sunrise</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>Yes</BACON>
+		<CHEESE typSyru = "Cheddar">Yes</CHEESE>
+		<FOURTHLEVEL>Egg</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">145</PRICE>
+	</BURGER>
+	<BURGER type = "Chicken">
+		<TYPE>Chicken</TYPE>
+		<NAME>Farmer</NAME>
+		<SAUCE>8</SAUCE>
+		<FIRSTLEVEL>Cucumber</FIRSTLEVEL>
+		<SECONDLEVEL>Onion</SECONDLEVEL>
+		<THIRDLEVEL>Tomato</THIRDLEVEL>
+		<BACON>Yes</BACON>
+		<CHEESE typSyru = "Goat">Yes</CHEESE>
+		<FOURTHLEVEL>Avocado</FOURTHLEVEL>
+		<TIMECOOKING cas="sec">90</TIMECOOKING>
+		<PRICE mena="czk">173</PRICE>
+	</BURGER>
+
+</BURGERS>
